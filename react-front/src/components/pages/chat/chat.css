@@ -1,0 +1,120 @@
+.chat{
+    margin-top: 70px;
+    height: 100vh;
+    display: flex;
+}
+
+.chatMenu{
+    flex: 3.5;
+}
+
+.chatBox{
+    flex: 5.5;
+}
+.chatBoxBottom{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.chatOnline
+{
+    flex: 3;
+}
+.chatMenuWrapper{
+
+    padding: 10px;
+    height: 100%;
+
+}
+.chatBoxWrapper{
+padding: 10px;
+    height: 100%;
+}
+.chatOnlineWrapper{
+    padding: 10px;
+    height: 100%;
+}
+
+.chatMessageInput{
+    width: 80%;
+    height: 90px;
+    padding: 10px;
+}
+.chatSubmitButton{
+    width: 90px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid #fff ;
+    background: #8658A5;
+    color: #fff;
+    font-size: 9px;
+    font-weight: bold;
+    padding: 10px 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+    margin: 5px;
+    cursor: pointer;
+  }
+.chatSubmitButton:active{
+    transform: scale(0.95);
+    
+}
+.chatSubmitButton:focus{
+    outline: none;
+}
+.chatBoxWrapper{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+.chatBoxTop{
+    height: 100%;
+    overflow-y: scroll;
+    padding-right: 10px;
+}
+.chatBoxTop::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  .chatBoxTop::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  .chatBoxTop::-webkit-scrollbar-thumb {
+    background-color: #8658A5;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+  }
+  .noConversationText{
+    position: absolute;
+    top: 10%;
+    font-size: 50px;
+    color: gray;
+    cursor: default;
+  }
+  .searchContainer{
+    top: 110%;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background: #fff;
+    border-radius: 10px;
+    padding:5px; 
+
+  }
+  .searchDiv{
+    cursor: pointer;
+    height: 2rem;
+    width: 100%;
+    
+
+  }
+  .searchDiv:hover{
+    background: gray;
+  }

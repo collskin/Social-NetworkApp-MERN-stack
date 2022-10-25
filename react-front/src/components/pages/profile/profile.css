@@ -1,0 +1,103 @@
+.profile{
+    display: flex;
+    
+}
+.profileRight{
+    flex: 9;
+}
+
+
+.profileCover{
+    height: 320px;
+    position: relative;
+}
+.profileCoverImg{
+    width: 100%;
+    height: 250px;
+    object-fit: cover-down;
+}
+.profileUserImg{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 150px;
+    border: 3px solid #808080;
+}
+.profileInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #171717;
+}
+
+.profileInfoName{
+    font-size: 24px;
+
+}
+.profileInfoDesc{
+    font-weight: 400;
+    
+}
+
+
+
+.profileRightBottom{
+    display: flex;
+    
+}
+.changeCover{
+
+background-color: #8658A5;
+    border-radius: 8px;
+    border: 1px solid #fff ;
+    color: #fff;
+    font-size: 9px;
+    font-weight: bold;
+    padding: 10px 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+    cursor: pointer;
+}
+.changeImg{
+    
+    background-color: #8658A5;
+    border-radius: 8px;
+    border: 1px solid #fff ;
+    color: #fff;
+    font-size: 9px;
+    font-weight: bold;
+    padding: 10px 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+    cursor: pointer;
+}
+.changeCover:active{
+    transform: scale(0.95);
+    
+}
+.changeImg:active{
+    transform: scale(0.95);
+    
+}
+.changeCover:focus{
+    outline: none;
+}
+.changeImg:focus{
+    outline: none;
+}
+.buttonSub{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+    padding: 5px;
+}
